@@ -1,6 +1,6 @@
 let contador=1
 
-function render) {
+function render() {
 	let pokemon=document.getElementById("pokemon")
 	pokemon.innerHTML=`<img class="poke" src="https://tinyurl.com/ironhack-pokemons/${contador}.svg">`	
 }
